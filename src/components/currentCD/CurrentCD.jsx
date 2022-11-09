@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const CurrentCD = () => {
+const CurrentCD = () => {
   return (
     <div>CurrentCD</div>
   )
 }
+
+export default CurrentCD
