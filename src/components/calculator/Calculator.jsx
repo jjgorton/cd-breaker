@@ -44,7 +44,12 @@ const Calculator = () => {
 					? `<`
 					: `=`}
 			</p>
-			<OtherCD />
+			<OtherCD
+				currentCD={currentCD}
+				penalty={penalty}
+				otherCD={otherCD}
+				setOtherCD={setOtherCD}
+			/>
 		</>
 	);
 };
