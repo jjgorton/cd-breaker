@@ -1,2 +1,7 @@
-@import '../../global_styles/';
+@import "../../global_styles/";
 
+.currentCD {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid orange;
+}

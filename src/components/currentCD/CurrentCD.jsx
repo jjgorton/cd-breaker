@@ -6,7 +6,7 @@ const CurrentCD = ({ currentCD, setCurrentCD }) => {
 	};
 
 	return (
-		<div>
+		<div className="currentCD">
 			<h1>Current CD</h1>
 			<form>
 				<label htmlFor="curr-principal">Principal</label>

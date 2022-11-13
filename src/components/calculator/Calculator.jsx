@@ -30,7 +30,7 @@ const Calculator = () => {
 	});
 
 	return (
-		<>
+		<div className="calculator">
 			<CurrentCD currentCD={currentCD} setCurrentCD={setCurrentCD} />
 			<Penalty
 				penalty={penalty}
@@ -50,7 +50,7 @@ const Calculator = () => {
 				otherCD={otherCD}
 				setOtherCD={setOtherCD}
 			/>
-		</>
+		</div>
 	);
 };
 

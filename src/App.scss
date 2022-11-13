@@ -1,1 +1,6 @@
-@import './global_styles/';
+@import "./global_styles/";
+
+@import "./components/currentCD/current.scss";
+@import "./components/otherCD/otherCD.scss";
+@import "./components/penalty/penalty.scss";
+@import "./components/calculator/calculator.scss";
