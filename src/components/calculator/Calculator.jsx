@@ -18,7 +18,8 @@ const Calculator = () => {
 	const [penalty, setPenalty] = useState({
 		fee: 0,
 		term: 0,
-		simple: true,
+		days: true,
+		simple: false,
 		total: 0,
 	});
 
